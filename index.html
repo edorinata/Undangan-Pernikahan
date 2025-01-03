@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Edo & ............... </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Undangan </h1>
+    </header>
+    <section id="intro">
+        <p>Dengan penuh rasa syukur, kami mengundang Anda untuk menghadiri acara kami:</p>
+        <h3>Bar Team WTCU</h3>
+    </section>
+    <section id="details">
+        <h3>Detail Acara</h3>
+        <p><strong>Tanggal:</strong> 9 Januari 2025</p>
+        <p><strong>Waktu:</strong> 6:00 WITA</p>
+        <p><strong>Agenda:</strong> KERJA LEMBUR</p>
+        <p><strong>Tempat:</strong> WATERCRESS UBUD</p>
+    </section>
+    <section id="rsvp">
+        <h3>Konfirmasi Kehadiran</h3>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" placeholder="Nama Anda" required>
+            <label for="attendance">Kehadiran:</label>
+            <select id="attendance" required>
+                <option value="yes">Hadir</option>
+                <option value="no">Tidak Hadir</option>
+            </select>
+            <button type="button" onclick="confirmAttendance()">Kirim</button>
+        </form>
+        <p id="response"></p>
+    </section>
+    <footer>
+        <p>Terima kasih atas doa dan ditunggu kehadiran Anda.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
